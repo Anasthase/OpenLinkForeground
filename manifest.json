@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Open Link Foreground",
+    "description": "Add a context menu option to open links in a new foreground tab.",
+    "version": "1.0",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [        
+        "contextMenus"
+    ]
+}
